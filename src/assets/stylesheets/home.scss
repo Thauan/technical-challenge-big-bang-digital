@@ -1,0 +1,32 @@
+:root {
+    --background: #eff3f6;
+    --navbar-width: 300px;
+    --navbar-width-min: 90px;
+    --navbar-primary: #eff3f6;
+    --navbar-secondary: #535353;
+    --navbar-menu-text: #535756;
+}
+  
+html, body {
+    margin: 0;
+    background: var(--background);
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.content {
+    padding: 20px;
+    width: 100%;
+}
